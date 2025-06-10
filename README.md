@@ -1,2 +1,2 @@
-# 🧠 Sales Forecast Dashboard (Streamlit + fbprophet)
-A dashboard to forecast factory sales using fbprophet for better compatibility on Streamlit Cloud.
+# 🧠 Sales Forecast Dashboard (Linear Regression)
+Streamlit dashboard for factory sales forecasting using Linear Regression. Lightweight and compatible with Streamlit Cloud.
