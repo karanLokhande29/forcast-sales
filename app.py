@@ -1,11 +1,11 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-from prophet import Prophet
+from fbprophet import Prophet
 from st_aggrid import AgGrid, GridOptionsBuilder
 import streamlit as st
 import logging, warnings
 
-logging.getLogger("prophet").setLevel(logging.WARNING)
+logging.getLogger("fbprophet").setLevel(logging.WARNING)
 warnings.filterwarnings("ignore")
 st.set_page_config(page_title="Sales Forecast Dashboard", layout="wide")
 st.title("📊 Factory-Wise Sales Forecast Dashboard")
